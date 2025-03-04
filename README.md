@@ -1,10 +1,10 @@
-Storage Management Component for a Minimal Operating System
+Storage Management Component for a Minimal Operating :
 Project Description
-This project is part of the development of a minimal operating system that manages and coordinates the activities of a computing system. The operating system acts as an intermediary, granting application programs access to machine resources.
+     This project is part of the development of a minimal operating system that manages and coordinates the activities of a computing system. The operating system acts as an intermediary, granting application programs access to machine resources.
 
 Our task is to implement a storage management component for a storage device (hard disk or SSD). Since the project is in its early stages, certain assumptions have been made to simplify development.
 
-Requirements
+    Requirements
 The system operates in two possible modes:
 
 Unidimensional memory (linear memory allocation)
