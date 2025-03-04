@@ -1,5 +1,6 @@
-Storage Management Component for a Minimal Operating :
-Project Description
+Storage Management Component for a Minimal Operating 
+
+Project Description:
      This project is part of the development of a minimal operating system that manages and coordinates the activities of a computing system. The operating system acts as an intermediary, granting application programs access to machine resources.
 
 Our task is to implement a storage management component for a storage device (hard disk or SSD). Since the project is in its early stages, certain assumptions have been made to simplify development.
@@ -26,6 +27,8 @@ Retrieve file location: Given a file descriptor (ID), return the interval of blo
 Store a file: Given a file descriptor and its size (in kB), return the interval of blocks where it can be stored. The first available contiguous interval (from left to right) is used. If storage is not possible, return (0, 0).
 Delete a file: Given a file descriptor, remove the file from storage by marking its blocks as free (assigned descriptor value 0).
 Defragmentation: Rearrange/recalculate the blocks so that files are stored compactly, starting from block 0 and filling all consecutive blocks without gaps.
+
+
 2. Bidimensional Memory Implementation
 To expand the storage capacity, the memory model is extended to two dimensions, forming an 8MB × 8MB grid. A contiguous storage section is defined along rows.
 
