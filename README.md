@@ -1,4 +1,4 @@
-Storage Management Component for a Minimal Operating 
+Storage Management Component for a Minimal Operating System
 
 Project Description:
      This project is part of the development of a minimal operating system that manages and coordinates the activities of a computing system. The operating system acts as an intermediary, granting application programs access to machine resources.
