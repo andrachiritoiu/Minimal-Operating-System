@@ -1,17 +1,18 @@
-Storage Management Component for a Minimal Operating System
+# Storage Management Component for a Minimal Operating System
 
-Project Description:
-     This project is part of the development of a minimal operating system that manages and coordinates the activities of a computing system. The operating system acts as an intermediary, granting application programs access to machine resources.
+## Project Description
+This project is part of the development of a minimal operating system that manages and coordinates the activities of a computing system. The operating system acts as an intermediary, granting application programs access to machine resources.
 
 Our task is to implement a storage management component for a storage device (hard disk or SSD). Since the project is in its early stages, certain assumptions have been made to simplify development.
 
-    Requirements
+## Requirements
 The system operates in two possible modes:
 
-Unidimensional memory (linear memory allocation)
-Bidimensional memory (grid-based memory allocation)
-1. Unidimensional Memory Implementation
-In this case, the storage device functions as follows:
+-Unidimensional memory (linear memory allocation)
+
+-Bidimensional memory (grid-based memory allocation)
+
+## 1. Unidimensional Memory Implementation
 
 The storage capacity is fixed at 8MB.
 The storage is divided into 8kB blocks.
@@ -29,7 +30,7 @@ Delete a file: Given a file descriptor, remove the file from storage by marking 
 Defragmentation: Rearrange/recalculate the blocks so that files are stored compactly, starting from block 0 and filling all consecutive blocks without gaps.
 
 
-2. Bidimensional Memory Implementation
+## 2. Bidimensional Memory Implementation
 To expand the storage capacity, the memory model is extended to two dimensions, forming an 8MB × 8MB grid. A contiguous storage section is defined along rows.
 
 Required Operations for Bidimensional Memory
